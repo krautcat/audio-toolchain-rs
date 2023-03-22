@@ -1,0 +1,13 @@
+[package]
+name = "krautcat-audio-toolchain"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "kat"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.1.11", features = ["color", "help", "usage", "error-context", "suggestions", "derive", "unicode", "wrap_help", "cargo"] }
